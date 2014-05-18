@@ -31,7 +31,8 @@ Chainy action that sets the data for the chain with the data that is passed over
 
 
 ``` javascript
-var Chainy = require('chainy').subclass().require('set', 'log')
+// chainy install set log
+var Chainy = require('chainy-core').subclass().require('set', 'log')
 Chainy.create().set("some data").log()  // "some data"
 ```
 
