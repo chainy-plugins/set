@@ -30,7 +30,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/set/issues"
   },
@@ -58,5 +60,6 @@
   "scripts": {
     "test": "node ./test/set-test.js"
   },
-  "main": "./lib/set.js"
+  "main": "./lib/set.js",
+  "browsers": true
 }
