@@ -14,8 +14,7 @@
 				.set(a)
 				.done(function(err, result){
 					if (err)  return next(err)
-					expect(result).to.deep.equal(a)
-					// ^ shallow comparison, so checks to see if the object is actually the same object
+					expect(result).to.equal(a)
 					return next()
 				})
 		})
