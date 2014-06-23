@@ -31,8 +31,9 @@ Chainy action that sets the data for the chain with the data that is passed over
 
 
 ``` javascript
-require('chainy-core').create().require('set log')
-	.set("some data").log()  // "some data"
+require('chainy').create().require('set log')
+	.set("some data")
+	.log()  // "some data"
 ```
 
 <!-- /CHAINY_DOCUMENTATION -->
@@ -49,7 +50,7 @@ require('chainy-core').create().require('set log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-set')`
 - Install: `npm install --save chainy-plugin-set`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-set@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-set@1.0.1`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-set')`
