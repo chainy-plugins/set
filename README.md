@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# Set action for [ChainyJS](http://chainy.bevry.me)
+# Set action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -50,7 +50,7 @@ require('chainy').create().require('set log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-set')`
 - Install: `npm install --save chainy-plugin-set`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-set@1.0.1`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-set@1.0.2`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-set')`
